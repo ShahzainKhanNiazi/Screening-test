@@ -74,14 +74,3 @@ function App() {
 }
 
 export default App;
-
-// {
-//   caraousel.map((data, i) => {
-//     return (
-//       <div>
-//         <h1>{data.heading}</h1>
-//         <p>{data.subHeading}</p>
-//       </div>
-//     );
-//   });
-// }
