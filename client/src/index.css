@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.main-section {
+  width: 100%;
+  height: 100vh;
+  color: #ffffff;
+
+  position: relative;
+}
+
+.main-img {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 0;
+}
+
+.top-section {
+  position: absolute;
+  z-index: 1;
+  padding: 20px;
+}
+
+.top-heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+  z-index: 1;
+}
+
+.top-para {
+  width: 50%;
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+  top: 200px;
+  z-index: 1;
+  padding: 20px;
+}
+
+.button {
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  border-radius: 32px;
+  background-color: transparent;
+  width: 120px;
+  height: 50px;
+  color: #ffffff;
+}
+
+.icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: #0d3de6;
+  border-radius: 50%;
+  font-size: 30px;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.middle-para {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 15px;
+  margin-left: 10px;
+}
+
+.lower-section {
+  display: flex;
+  position: relative;
+  z-index: 1;
+  top: 200px;
+  padding: 20px;
+}
+
+.slide-show {
+  display: flex;
+  align-items: center;
+}
+
+.slide-num {
+  font-size: 20px;
+}
+
+.slide-bar {
+  width: 120px;
+  background: #414141;
+  border-radius: 15%;
+  margin-left: 5px;
+}
+
+.slide-bar-filled-1 {
+  width: 33%;
+  height: 5px;
+  background: #ffffff;
+}
+.slide-bar-filled-2 {
+  width: 66%;
+  height: 5px;
+  background: #ffffff;
+}
+.slide-bar-filled-3 {
+  width: 99%;
+  height: 5px;
+  background: #ffffff;
+}
+
+.slide-buttons {
+  position: absolute;
+  right: 250px;
+}
+
+.btn-1 {
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-2 {
+  width: 40px;
+  height: 40px;
+  background: #0a50b3;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
